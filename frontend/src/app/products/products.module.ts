@@ -1,3 +1,4 @@
+import { DemoMaterialModule } from './../demo-material-module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,6 +12,7 @@ import { ProductsAdminComponent } from './products-admin/products-admin.componen
   ],
   imports: [
     CommonModule,
+    DemoMaterialModule,
     ProductsRoutingModule
   ]
 })
